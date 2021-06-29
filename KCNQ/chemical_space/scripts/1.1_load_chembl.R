@@ -2,6 +2,7 @@
 
 library(Zr)
 library(arrow)
+library(dplyr)
 
 # I cancled this after collecting 275k substances
 chembl25_substances <- Zr::catalog_items(
